@@ -1,13 +1,14 @@
 // import React from "react";
 import Layout from "./components/Layout";
-import Home from "./components/pages/Home";
+import Signup from "./components/pages/Signup";
 import "./styles/App.css";
 
 const App = () => {
   return (
     <>
       <Layout>
-        <Home />
+        {/* <Home /> */}
+        <Signup />
       </Layout>
     </>
   );
