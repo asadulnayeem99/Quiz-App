@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import classes from "../styles/Form.module.css";
 
 const Form = ({ children, className, ...rest }) => {

@@ -1,4 +1,5 @@
-// import React from 'react';
+/* eslint-disable react/prop-types */
+
 import classes from "../styles/Layout.module.css";
 import Nav from "./Nav";
 const Layout = ({ children }) => {

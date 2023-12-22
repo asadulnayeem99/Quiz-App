@@ -1,6 +1,6 @@
 // import React from "react";
 import Layout from "./components/Layout";
-import Signup from "./components/pages/Signup";
+import Result from "./components/pages/Result";
 import "./styles/App.css";
 
 const App = () => {
@@ -8,7 +8,10 @@ const App = () => {
     <>
       <Layout>
         {/* <Home /> */}
-        <Signup />
+        {/* <Signup /> */}
+        {/* <Login /> */}
+        {/* <Quiz /> */}
+        <Result />
       </Layout>
     </>
   );
